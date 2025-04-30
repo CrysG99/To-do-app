@@ -1,0 +1,73 @@
+body {
+    background-color: #2d2641;
+}
+
+.todo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #201b2f;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.todoform {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input {
+    padding: 0.75rem;
+    border: 1px solid #211d2e;
+    background-color: #211d2e;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2d2641;
+    box-shadow: 0 0 4px rgba(37, 117, 252, 0.5)
+}
+
+select {
+    padding: 0.75rem;
+    border: 1px solid #211d2e;
+    background-color: #211d2e;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+select:focus {
+    outline: none;
+    border-color: #2d2641;
+    box-shadow: 0 0 4px rgba(37, 117, 252, 0.5)
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+.todobutton {
+    background: #2575fc;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.todobutton:hover {
+    background: #6a11cb;
+}
